@@ -23,8 +23,6 @@ Each avatar is shown from three synchronized views. The progress bars show the f
 
 ProgressiveAvatars represents an animatable head as a hierarchy of mesh-bound 3D Gaussians. Adaptive triangle subdivision adds detail where it is needed. At inference time, the avatar can be delivered progressively: a coarse representation appears first, and incoming Gaussians refine the same asset.
 
-The demos are recordings of a packet-based receiver. Packet arrival timing is simulated; the receiver loads the shared animation header and then individual Gaussian/geometry packets, rather than loading the complete checkpoint and masking it. The displayed sequence uses interpolated FLAME mesh animation. These GIFs are qualitative demonstrations, not network or performance benchmarks.
-
 ## What is included
 
 - Adaptive triangle subdivision with face-local Gaussian parameters and cumulative levels of detail.
