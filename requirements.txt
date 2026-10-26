@@ -1,0 +1,16 @@
+# Install a CUDA-compatible PyTorch/torchvision pair before this file.
+numpy==1.23.5
+scipy
+pillow
+roma
+tqdm
+plyfile
+chumpy
+tensorboard
+wandb
+fvcore
+iopath
+matplotlib
+pytest
+ninja
+git+https://github.com/NVlabs/nvdiffrast
